@@ -1,0 +1,1179 @@
+/* importing font style */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+
+:root {
+    --teal: #63B7AF;
+    --cyan: #ABF0E9;
+    --light: #D4F3EF;
+    --orange: #EE8572;
+    --blue: #98ACF8;
+    --dark: #222;
+}
+
+/* style of the page */
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    font-size: 100%;
+}
+
+/* styling the heading of the pages */
+.heading {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/slider2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 300px;
+    padding-bottom: 125px;
+    text-align: center;
+}
+
+/* style of the text in heading section */
+.heading h1 {
+    color: var(--teal);
+    font-size: 64px;
+}
+
+/* style of the paragraph in the heading section*/
+.heading p {
+    padding-top: 16px;
+    font-size: 24px;
+    color: var(--cyan);
+}
+
+/* style of the heading links */
+.heading a {
+    color: var(--blue);
+}
+
+/* style of the heading links when hovered */
+.heading a:hover {
+    color: var(--dark);
+}
+
+/* style of the buttons in the pages */
+.button {
+    margin-top: 16px;
+    display: inline-block;
+    padding: 12px 44px;
+    background: var(--dark);
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* style of the buttons when hovered */
+.button:hover {
+    background: var(--teal);
+}
+
+/* style of the header of each pages */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px 5%;
+
+}
+
+/* style of the header when scrolled */
+.header.active {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--light);
+    z-index: 1000;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, .1);
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
+    padding: 10px 5%;
+}
+
+/* style of the logo link */
+.header .logo a {
+    margin: 0 16px;
+    font-weight: bolder;
+    color: black;
+}
+
+/* navigation bar section */
+/* style of the link in the navigation bar */
+.header .navbar a {
+    font-size: 24px;
+    color: var(--teal);
+    margin: 0 16px;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+/* style of the navigation bar when hovered */
+.header .navbar a:hover {
+    color: var(--dark);
+}
+
+/* style of the icons in the navigation bar */
+.header .icon div {
+    font-size: 34px;
+    margin-left: 22px;
+    color: black;
+    display: inline-flex;
+    text-decoration: none;
+    justify-content: space-between;
+}
+
+/* style of the icons when hovered */
+.header .icon div:hover {
+    color: var(--teal);
+}
+
+/* style of the search form */
+.header .search-form {
+    top: -120%;
+    right: 50px;
+    position: absolute;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    box-shadow: 0 10px 16px rgba(0, 0, 0, .1);
+    background: white;
+}
+
+/* style of the search form when the search icon is pressed */
+.header .search-form.active {
+    top: 120%;
+}
+
+/* style of the search form's input box */
+.header .search-form input {
+    height: 100%;
+    width: 100%;
+    padding: 0 14px;
+    font-size: 15px;
+    color: black;
+}
+
+/* style of the search form label */
+.header .search-form label {
+    font-size: 22px;
+    margin-right: 25px;
+    cursor: pointer;
+    color: var(--blue)
+}
+
+/* style of the search form label when hovered */
+.header .search-form label:hover {
+    color: var(--dark);
+}
+
+
+/* home page style */
+/* style of the home page image */
+.home {
+    padding-top: 224px;
+    position: relative;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.411), rgba(0, 0, 0, 0.432)), url(/images/HomePage.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+/* style of the homepage's text on the image */
+.home span {
+    color: var(--teal);
+    font-size: 40px;
+    font-weight: bolder;
+    margin-left: 8%;
+    margin-top: 10%;
+    position: absolute;
+}
+
+/* style of the heading in the home page */
+.home h3 {
+    color: var(--teal);
+    font-size: 30px;
+    font-weight: bolder;
+    margin-left: 8%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+/* style of the link in the home page */
+.home a {
+    color: white;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-left: 8%;
+    margin-top: 20%;
+    position: absolute;
+}
+
+/* section for the featured product */
+/* style of the banner box */
+.banner {
+    padding: 60px 10%;
+    background: var(--teal);
+}
+
+/* style of the heading in the banner box */
+.banner h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+/* style of the banner box' background */
+.banner .banner-content {
+    padding: 10px ;
+    margin-top: 5%;
+    background-image: linear-gradient(#00000017, #2023277e);
+    height: 50vh;
+    background-size: cover;
+}
+
+
+/* style of the banner box's text */
+.banner .banner-content div {
+    font-weight: bolder;
+    font-size: 18px;
+    padding-top: 45px;
+    position: relative;
+    color: white;
+    padding-left: 150px;
+    /* float: left; */
+
+} 
+.banner .banner-content .content {
+    float:left;
+}
+
+.banner .banner-content .box img {
+    width: 200px;
+    height: 200px;
+}
+
+/* style of the footer */
+.footer {
+    background: var(--light);
+    padding: 34px 9%;
+}
+
+/* style of the container of the footer section */
+.footer .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(525px, 225px))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(500px, 20px));
+}
+
+/* style of the heading in the footer */
+.footer .container .box h3 {
+    font-size: 35px;
+    color: black;
+    padding: 10px;
+}
+
+/* style of the texts in the footer */
+.footer .container .box p {
+    font-size: 24px;
+    color: var(--light);
+    padding-bottom: 5px;
+}
+
+/* style of the link in the footer */
+.footer .container .box a {
+    font-size: 20px;
+    color: var(--dark);
+    padding: 10px 0;
+    display: block;
+}
+
+/* style of the link in the footer when hovered */
+.footer .container .box a:hover {
+    font-size: 20px;
+    color: var(--blue);
+    padding: 10px 0;
+    display: block;
+}
+
+/* style of the icon in the footer */
+.footer .container .box i {
+    padding-right: 5px;
+}
+
+/* style of the copyright section */
+.copyright {
+    text-align: center;
+    background: var(--orange);
+    color: white;
+    font-size: 24px;
+}
+
+/* shop page */
+/* style of the category section */
+.category {
+    padding: 40px 9%;
+}
+
+/* style of the category title */
+.category .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    color: black;
+}
+
+/* style of the category title /span */
+.category .title span {
+    color: var(--teal);
+}
+
+/* style of the link */
+.category .title a {
+    margin-left: auto;
+    color: var(--teal);
+}
+
+/* style of the link when hovered */
+.category .title a:hover {
+    margin-left: auto;
+    color: var(--dark);
+}
+
+/* style of the category section's container */
+.category .container {
+    height: 50vh;
+    background-size: cover;
+}
+
+/* style of the category section's box */
+.category .container .box {
+    width: 25%;
+    height: 40%;
+    float: left;
+    text-align: center;
+    transition-duration: .6s;
+    border-radius: 5px;
+}
+
+/* style fo the category box for baby products */
+.category .container .box1 {
+    margin-top: 90px;
+    height: 80%;
+    background: url(/images/baby-category.png);
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/* style of the category section's text */
+.category .container div {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 180px;
+    color: white;
+}
+
+/* style fo the category box for skin cares */
+.category .container .box2 {
+    margin-top: 90px;
+    height: 80%;
+    background: url(/images/skin-category.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/* style fo the category box for medical equipments*/
+.category .container .box3 {
+    margin-top: 90px;
+    height: 80%;
+    background: url(/images/medical_equipments-category.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/* style fo the category box for  covid 19 products*/
+.category .container .box4 {
+    margin-top: 90px;
+    height: 80%;
+    background: url(/images/covidcategory.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+/* style of the heading in the category section */
+.category .container h3 {
+    font-weight: bolder;
+    font-size: 18px;
+    margin-top: 280px;
+    color: var(--dark);
+}
+
+/* all product section */
+/* style of the item section */
+.items {
+    padding: 40px 9%;
+}
+
+/* style of the item title */
+.items .title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    color: black;
+}
+
+/* style of the item title / span */
+.items .title span {
+    color: var(--teal);
+}
+
+/* style of the details button*/
+.items button {
+    position: absolute;
+    height: 60px;
+    width: 50%;
+    top: 155px;
+    cursor: pointer;
+    background-color: #63B7AF;
+}
+
+/* style of the details button when hovered*/
+.items button:hover {
+    background-color: #1fac9e83;
+}
+
+/* style of the item link */
+.items .title a {
+    margin-left: auto;
+    color: var(--teal);
+}
+
+/* style of the item link when hovered*/
+.items .title a:hover {
+    margin-left: auto;
+    color: var(--dark);
+}
+
+/* style of the item container */
+.items .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(500px, 225px))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(500px, 225px));
+    gap: 24px;
+}
+
+/* style of the item-image container */
+.items .container .item-image .item img {
+    width: 50%;
+}
+
+/* style of the item-image container */
+.items .container .item-image {
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+    background: whitesmoke;
+}
+
+/* style of the icon int the item-image section */
+.items .container .item-image .icon {
+    position: absolute;
+    top: 105%;
+    left: 0;
+    height: 600px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.753);
+    gap: 16px;
+}
+
+/* style of the item image section when hovered */
+.items .container .item-image:hover .icon {
+    top: 0;
+}
+
+/* style of the icon link */
+.items .container .item-image .icon a {
+    font-size: 44px;
+    height: 80px;
+    width: 80px;
+    color: black;
+}
+
+/* style of the icon link when hovered */
+.items .container .item-image .icon a:hover {
+    color: var(--teal);
+}
+
+/* style of the item content */
+.items .container .item-image .content {
+    padding: 18px;
+}
+
+/* style of the item content's heading */
+.items .container .item-image .content h3 {
+    font-size: 24px;
+}
+
+/* style of the item content's price */
+.items .container .item-image .content .price {
+    font-size: 24px;
+    padding: 16px 0;
+}
+
+/* about page */
+/* style of the about page */
+.about {
+    padding: 40px 9%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 14px;
+}
+
+/* style of the picture on the about page */
+.about .picture {
+    flex: 560px;
+}
+
+/* style of the picture on the about page */
+.about .picture img {
+    width: 50%;
+    margin-left: 30%;
+}
+
+/* style of the content on the about page */
+.about .content {
+    flex: 440px;
+    justify-content: justify;
+}
+
+/* style of the content's span on the about page */
+.about .content span {
+    color: black;
+    font-size: 34px;
+}
+
+/* style of the content's heading on the about page */
+.about .content h3 {
+    color: black;
+    font-size: 34px;
+}
+
+/* style of the content's paragraph on the about page */
+.about .content p {
+    color: black;
+    font-size: 18px;
+    line-height: 2;
+    padding: 24px 0;
+}
+
+/* style of the info section on the about page */
+.info-container {
+    padding: 20px 9%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(500px, 225px))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(500px, 225px));
+    gap: 18px;
+}
+
+/* style of the info container on the about page */
+.info-container .info {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    gap: 18px;
+    padding: 24px 0;
+}
+
+/* style of the info section's images on the about page */
+.info-container .info img {
+    height: 112px;
+}
+
+/* style of the info section's heading on the about page */
+.info-container .info .content h3 {
+    font-size: 24px;
+    color: var(--dark);
+    padding-bottom: 8px;
+}
+
+/* style of the info section's span on the about page */
+.info-container .info .content span {
+    font-size: 18px;
+    color: rgb(56, 51, 51);
+}
+
+/* contact page */
+/* style of the contact page's container */
+.contact .container {
+    padding: 40px 9%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(460px, 225px))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(460px, 225px));
+    gap: 18px;
+}
+
+/* style of the contact page's icon */
+.contact .container .icon {
+    text-align: center;
+    border: 1.6px solid rgba(0, 0, 0, 0.1);
+    padding: 24px;
+}
+
+/* style of the contact page's icon */
+.contact .container .icon i {
+    height: 96px;
+    width: 96px;
+    line-height: 96px;
+    font-size: 40px;
+    background: var(--teal);
+    color: #fff;
+    border-radius: 50%;
+}
+
+/* style of the contact page's headings */
+.contact .container .icon h3 {
+    color: var(--dark);
+    font-size: 24px;
+    padding: 16px 0;
+}
+
+/* style of the contact page's paragraph */
+.contact .container .icon p {
+    color: var(--dark);
+    font-size: 18px;
+    line-height: 2;
+}
+
+/* registration page */
+/* style of the registration section */
+#registration {
+    margin-top: 30px;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--teal);
+    background-image: linear-gradient(#0000007e, #2023271c);
+    padding: 30px;
+}
+
+/* style of the registration section's container*/
+#registration .container {
+    position: relative;
+    max-width: 850px;
+    width: 100%;
+    background: white;
+    padding: 4px 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    perspective: 2700px;
+}
+
+/* style of the registration section's cover image */
+#registration .container .cover {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    height: 100%;
+    width: 50%;
+    z-index: 98;
+    transition: all 1s ease;
+    transform-origin: left;
+    transform-style: preserve-3d;
+}
+
+/* style of the registration section before pressing on sign up */
+#registration .container .cover::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: var(--teal);
+    opacity: 0.5;
+}
+
+/* style of the cover when flipped */
+#registration .container #flip:checked~.cover {
+    transform: rotateY(-180deg);
+}
+
+/* style of the cover image */
+#registration .container .cover img {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* style of the registration form */
+#registration .container .form {
+    height: 100%;
+    width: 100%;
+    background: white;
+}
+
+/* style of the registration content */
+#registration .container .content {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* style of the registration and login form */
+#registration .container .content .login-form,
+#registration .container .content .registration-form {
+    width: calc(100%/2 - 25px);
+}
+
+/* style of the registration form title */
+#registration .container .content .title {
+    font-size: 34px;
+    position: relative;
+    font-weight: 500;
+    color: black;
+}
+
+/* style of the registration form title before signup link pressed  */
+#registration .container .content .title:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    ;
+    height: 3px;
+    width: 25px;
+    background: var(--teal);
+}
+
+/* style of the login form */
+#registration .container .content .login-form {
+    margin-top: 10%;
+}
+
+#registration .container .registration-form .title:before {
+    width: 20px;
+}
+
+/* style of the input section */
+#registration .container .content .inputs {
+    margin-top: 30px;
+}
+
+/* style of the input box */
+#registration .container .content .input-box {
+    height: 50px;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    position: relative;
+    padding-bottom: 6%;
+}
+
+/* style of the input fields */
+#registration .container .content .input-box input {
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all.3s ease;
+}
+
+#registration .container .content .input-box.success input:focus,
+#registration .container .content .input-box.success input:valid {
+    border-color: var(--teal);
+}
+
+#registration .container .content .input-box.error input:focus,
+#registration .container .content .input-box.error input:valid {
+    border-color: var(--orange);
+}
+
+/* style of the input field's icons */
+#registration .container .content .input-box i {
+    position: absolute;
+    color: var(--teal);
+    font-size: 17px;
+}
+
+#registration .container .content .input-box i.fa-exclamation-circle {
+    position: absolute;
+    right: 8%;
+    top: 2px;
+    color: var(--orange);
+    visibility: hidden;
+}
+
+#registration .container .content .input-box.error i.fa-exclamation-circle {
+    position: absolute;
+    right: 8%;
+    top: 2px;
+    color: var(--orange);
+    visibility: visible;
+}
+
+#registration .container .content .input-box small {
+    color: var(--orange);
+    position: absolute;
+    bottom: -0px;
+    left: 0;
+    visibility: hidden;
+}
+
+#registration .container .content .input-box.error small {
+    visibility: visible;
+}
+
+/* style of the form's content */
+#registration .container .content .text {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--dark);
+}
+
+/* style of the form's content links */
+#registration .container .content .text a {
+    text-decoration: none;
+}
+
+/* style of the form's content link when hovered */
+#registration .container .content .text a:hover {
+    text-decoration: underline;
+}
+
+/* style of the form's content buttons*/
+#registration .container .content .buttons {
+    color: #fff;
+    margin-top: 40px;
+}
+
+/* style of the form's content button section*/
+#registration .container .content .buttons input {
+    color: #fff;
+    background-color: var(--teal);
+    border-radius: 6px;
+    padding: 0;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+/* style of the form's input's when hovered */
+#registration .container .content .buttons input:hover {
+    background: var(--cyan);
+}
+
+/* style of the form's content label*/
+#registration .container .content label {
+    color: var(--teal);
+    cursor: pointer;
+}
+
+/* style of the form's content label when hovered*/
+#registration .container .content label:hover {
+    text-decoration: underline;
+
+}
+
+/* style of the flip part*/
+#registration .container #flip {
+    display: none;
+}
+
+/* shopping cart page */
+/* style of the shopping cart page */
+.cart-title {
+    padding: 40px 9%;
+
+}
+
+/* style of the title */
+.title {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 36px;
+    margin-bottom: 10px;
+    padding: 18px 0;
+    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    color: black;
+    margin-top: 7%;
+}
+
+/* style of the cart container */
+#cart-container {
+    padding: 40px 9%;
+
+}
+
+/* style of the cart table */
+#cart-container table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+/* style of the cart table's header */
+#cart-container table thead {
+    font-weight: 700;
+}
+
+/* style of the cart table's header's column */
+#cart-container table thead td {
+    background: var(--teal);
+    color: black;
+    border: none;
+    padding: 6px 0;
+}
+
+/* style of the cart table's input */
+#cart-container input {
+    width: 45px;
+}
+
+/* style of the table's each row */
+#cart-container table td {
+    border: 1px solid var(--dark);
+    text-align: center;
+}
+
+/* size of the first 3 columns of the table */
+#cart-container table td:nth-child(1),
+#cart-container table td:nth-child(2),
+#cart-container table td:nth-child(3) {
+    width: 200px;
+}
+
+/* size of the 4,5,6 columns of the table */
+#cart-container table td:nth-child(4),
+#cart-container table td:nth-child(5),
+#cart-container table td:nth-child(6) {
+    width: 170px;
+}
+
+/* size of the last column of the table */
+#cart-container table td:nth-child(7) {
+    width: 100px;
+}
+
+/* size of images in the table */
+#cart-container table tbody img {
+    width: 100px;
+    height: 80px;
+}
+
+/* billing section */
+.billing {
+    padding: 40px 9%;
+
+}
+
+/* style of the billing section's container */
+.billing .container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(750px, 225px))[auto-fit];
+    grid-template-columns: repeat(auto-fit, minmax(750px, 20px));
+    gap: 22px;
+}
+
+/* style of the detail part */
+.billing .container .details {
+    position: relative;
+    width: 100%;
+}
+
+/* style of the inputs in the billing section */
+.billing .container .details input {
+    margin: 15px;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all.3s ease;
+}
+
+/* style of the summary box */
+.billing .container .summary-box {
+    border-radius: 10px;
+}
+
+/* style of the 1st column of the table */
+.billing .container .summary-box table td:nth-child(1) {
+    width: 700px;
+}
+
+/* style of the place order button */
+.summary {
+    border-radius: 6px;
+    margin-left: 40%;
+    margin-top: 10%;
+}
+
+/* style to hide the header of the table */
+.offscreen {
+    height: 1px;
+    width: 1px;
+    position: absolute;
+    overflow: hidden;
+    top: -10px;
+}
+
+/* style of the form box */
+.form-box {
+    width: 800px;
+    height: 800px;
+    position: relative;
+    left: 30%;
+    background: var(--teal);
+    background-image: linear-gradient(#0000007e, #2023271c);
+    /* padding: 10px; */
+    overflow: hidden;
+    border-radius: 30px;
+    margin-bottom: 30px;
+}
+
+/* style of the content in the form box */
+.form-box .content {
+    padding: 28px 9%;
+}
+
+/* style of the heading */
+.form-box .content h2 {
+    margin-top: 30px;
+}
+
+/* style of the input fields */
+.form-box .content input {
+    margin-top: 10px;
+    height: 100%;
+    width: 100%;
+    outline: none;
+    border: none;
+    padding: 0 30px;
+    font-size: 17px;
+    font-weight: 500;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    transition: all.3s ease;
+    border-color: var(--teal);
+    background-color: transparent;
+}
+
+/* style of the placeholder */
+.form-box .content input::placeholder {
+    color: black;
+}
+
+
+/* edit button style */
+.Edbutton {
+    margin-top: 75px;
+    margin-left: 10%;
+    background-color: var(--teal);
+    font-size: 24px;
+    border-radius: 6%;
+    width: 30%;
+    display: inline-block;
+}
+
+/* style of the edit button when hovered */
+.Edbutton:hover {
+    background-color: var(--light);
+}
+
+.headings {
+    margin-top:10%;
+    position: relative;
+    left:30%;
+    top:10%;
+    float:left;
+    text-align: center;
+    width:16%;
+}
+
+.input-cart {
+    margin-top:9%;
+    float:left;
+    margin-left:30%;
+    width:30%;
+    text-align: center;
+}
+
+.headings p {
+    padding-bottom: 40px;
+    font-size: 22px;
+}
+
+.input-cart input {
+    width:300px;
+    /* height:10px; */
+    background-color: #fff;
+    position: relative;
+    font-size: 22px;;
+    /* padding:15px; */
+    padding-bottom:8px;
+    margin:15px 0;
+    padding-left:5%;
+    border-radius: 10%;
+}
