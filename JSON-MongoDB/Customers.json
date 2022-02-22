@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "620e720a520b0000c0006216"
+  },
+  "Name": "Anmol Vishvas",
+  "username": "anmol2309",
+  "email": "anmol@anvenpharma.com",
+  "PhoneNumber": "54887112",
+  "address": "Quatre Bornes",
+  "password": "Qwerty123"
+},{
+  "_id": {
+    "$oid": "620e9025520b0000c000621b"
+  },
+  "Name": "Niven Poovanen",
+  "username": "Poovanen01",
+  "email": "poovanen@avenpharrma.com",
+  "PhoneNumber": "54887112",
+  "address": "Avenue Buswell",
+  "password": "Qwerty123"
+},{
+  "_id": {
+    "$oid": "620e904f520b0000c000621c"
+  },
+  "Name": "Customer ",
+  "username": "customer",
+  "email": "customer@Avenpharrma.Com",
+  "PhoneNumber": "54968712",
+  "address": "Flic and flac",
+  "password": "Qwerty123"
+},{
+  "_id": {
+    "$oid": "620e9073520b0000c000621d"
+  },
+  "Name": "Joshua",
+  "username": "josh",
+  "email": "josh@Avenpharrma.Com",
+  "PhoneNumber": "52369814",
+  "address": "Grand Bai",
+  "password": "Qwerty123"
+}]

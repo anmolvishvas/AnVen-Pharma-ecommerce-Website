@@ -1,0 +1,133 @@
+[{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020d0"
+  },
+  "imageurl": "/images/baby bottle.png",
+  "Product": "Baby Bottles",
+  "Category": "Baby products",
+  "Price": "175.00",
+  "Description": "Baby; 1month ; blue; anti-colic bottles",
+  "Quantity": 487,
+  "Details": "This Tommee Tippee Advanced Anti-Colic Bottle Feeding Starter Set is designed to provide parents with a full feeding set that helps prevent colic by reducing air bubbles in milk and encouraging a good latch-on. All parents want their baby to be happy and comfortable, that is why we put together our award-winning breast-like nipple with the latest anti-colic innovation in the Tommee Tippee Advanced Anti-Colic bottle."
+},{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020d1"
+  },
+  "imageurl": "/images/baby diaper.png",
+  "Product": "Pamper Diaper Pants",
+  "Category": "Baby products",
+  "Price": "104.99",
+  "Description": "Baby; Diaper; Elastic Waistband; anti-rash lotion",
+  "Quantity": 485,
+  "Details": "Pampers all round protection pants have ANTI-RASH* lotion with aloe vera, to keep your babys skin protected. Newborn baby diapers containing Lotion with Aloe vera helps protect your babys delicate skin from diaper rash and irritation. Best diapers with Ultra Absorb Core, provides your baby a new type of dryness overnight - breathable dryness. Magic gel locks wetness away to provide up to 12 hours of dryness. The new and improved product design enables a comfortable fit, closer to the babys body and a flexible waist band that adapts to babys movements for a comfortable fit."
+},{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020d2"
+  },
+  "imageurl": "/images/baby food.png",
+  "Product": "Baby Cereal",
+  "Category": "Baby products",
+  "Price": "395.70",
+  "Description": "Baby; Food; cerelac; wheat; Rice",
+  "Quantity": 498,
+  "Details": "Nestlé CERELAC Baby Cereal with Milk, Wheat-Rice Mixed Veg is a complementary food for babies from 10 to 12 months. While infants and children have higher requirements of nutrients than adults, 2 serves of CERELAC Wheat-Rice Mixed Veg Cereal provides 99% of daily need of iron to the baby. It is also, a source of 19 important nutrients including vitamins and minerals. Nestlé develops infant nutrition products backed by evolving science and research. Innovation has been at the heart of Nestlé since its beginning. Optimal Preparation: Careful and hygienic preparation of Infant food is most essential for health. Do not use fewer scoops than directed, since diluted feeding will not provide adequate nutrients needed by your infant. Do not use more scoops than directed since concentrated feed will not provide the water needed by your infant. Storage:After opening the pack, the contents should immediately be transferred to an empty, clean, dry and airtight container.Replace the lid tightly after every use and store in a cool, dry place. Ensure enclosed scoop is thoroughly washed and dried before use. After opening, use the contents within 3 weeks or the expiry date, whichever is earlier. Important Notice:Mother milk is best for your baby. Safety Warnings: Infant food should be used only on the advice of a health worker as to the need for its use and the proper method of its use. Infant food is not the sole source of nourishment for an infant. Use prepared feed within half an hour otherwise microbial deterioration may set in. Discard unused feed."
+},{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020d3"
+  },
+  "imageurl": "/images/face mask.png",
+  "Product": "Tea Tree - Face Mask",
+  "Category": "Skin Products",
+  "Price": "130.70",
+  "Description": "Face mask; Adults; skin; tea tree",
+  "Quantity": "500",
+  "Details": "The Body Shop Tea Tree Face Mask leaves skin feeling deeply cleansed and refreshed. This mask helps remove impurities while calming blemish-prone skin. Benefits: Perfect for oily and blemish-prone skin; Purifies and refreshes skin for that deep clean feeling; Helps your blemished skin feel purified, refreshed and ready to get back out there; Smooth a thin layer onto pat-dried skin, clean face and neck with your fingertips. Leave for 5 to 10 minutes (mask will not dry). Then rinse off with clean water and pat skin dry. Use once or twice per week, after cleansing. When paired with Tea Tree Skin Clearing Foaming Cleanser of The Body Shop, you will find a whole team of blemish-fighting machines Cruelty Free"
+},{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020d4"
+  },
+  "imageurl": "/images/body lotion.png",
+  "Product": "Nivea Body Lotion",
+  "Category": "Skin Products",
+  "Price": "150.00",
+  "Description": "Nivea; Dry Skin; Serum; Body",
+  "Quantity": 499,
+  "Details": "Nivea Smooth Milk Body Lotion is enriched with shea butter- a therapy for the skin. Its fast absorbing formulation works deep within the skin repairing dryness layer by layer for long-lasting softness and protection from dry skin."
+},{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020d5"
+  },
+  "imageurl": "/images/facial cleanser.png",
+  "Product": "Facial cleaner",
+  "Category": "Skin Products",
+  "Price": "160.25",
+  "Description": "Facial; skin; care; cleanser",
+  "Quantity": "500",
+  "Details": "Developed with dermatologists, CeraVe Foaming Facial Cleanser has a unique formula with three essential ceramides (1, 3, 6-II) that cleanses and removes oil without disrupting the protective skin barrier. Gentle foaming action refreshes and cleanses skin, including removing excess oils and makeup. Non-comedogenic;Non-drying;Non-irritating;Ideal for normal to oily skin"
+},{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020d6"
+  },
+  "imageurl": "/images/bp_machine.png",
+  "Product": "OMCRON - BP Machine",
+  "Category": "Medical Equipments",
+  "Price": "210.25",
+  "Description": "Medical; equipments; Blood pressure",
+  "Quantity": "500",
+  "Details": "Our name is enlisted amongst trusted and leading companies for trading Omron BP Machine. Features: • Highly durable; • Easy usage; • Sturdiness"
+},{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020d7"
+  },
+  "imageurl": "/images/stetoscope.png",
+  "Product": "Stethoscope",
+  "Category": "Medical Equipments",
+  "Price": "390.75",
+  "Description": "equipments; medical; sthethoscope",
+  "Quantity": "500",
+  "Details": "The Clinical Lite professional stethoscope is a classic dual head stethoscope that is extremely light weight and affordable. The anodized aluminum dual head has a fiberglass diaphragm to optimally detect S1 and S2 heart sounds as well as Korotkoff sounds, while the bell side is optimally designed for assessing S3 and S4 heart sounds."
+},{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020d8"
+  },
+  "imageurl": "/images/Thermometer-Digital.png",
+  "Product": "Digital Thermometer",
+  "Category": "Medical Equipments",
+  "Price": "240.25",
+  "Description": "equipments; medical; thermometer; digital",
+  "Quantity": "500",
+  "Details": "Digital Thermometer is compact, accurate, and easy to use. It gives a digital reading of oral, underarm, or rectal body temperature."
+},{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020d9"
+  },
+  "imageurl": "/images/gloves.png",
+  "Product": "Medical Gloves",
+  "Category": "Covid-19",
+  "Price": "110.25",
+  "Description": "Latex; covid; gloves; medical",
+  "Quantity": "500",
+  "Details": "Medical Disposable Powder-free Nitrile Gloves from up & up™ are FDA approved for medical use, providing effective barrier against dirt and germs for surgery and other medical procedures. The gloves are made from durable, puncture resistant nitrile with a special formulation to give a natural rubber-like feel in stretch, tactile sensitivity and performance. Latex-free gloves avoid allergic reactions and skin irritation in users or patients. Powder-free leaves no residue, helping to reduce the spread of bacteria, irritation and dermatitis."
+},{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020da"
+  },
+  "imageurl": "/images/mask.png",
+  "Product": "Disposal face masks",
+  "Category": "Covid-19",
+  "Price": "250.25",
+  "Description": "medical; masks; disposable; covid",
+  "Quantity": "500",
+  "Details": "Soft and comfortable ear hook masks, not easy to drop, no need to adjust it when you work. A flexible Nose bar is adopted at the bridge of nose; The four sides of the mask join flatly and tightly to the face; Hence, it avoids unfiltered air directly entering into the mask and thus make breathe safely."
+},{
+  "_id": {
+    "$oid": "6208214b2a35696b9a0020db"
+  },
+  "imageurl": "/images/sanitizer.png",
+  "Product": "Hand Sanitizer",
+  "Category": "Covid-19",
+  "Price": "180.25",
+  "Description": "sanitizer; medical; covid; hand",
+  "Quantity": "500",
+  "Details": "Equate antiseptic helps you stay clean without soap or water. Kills 99.99% of common, illness-causing germs using alcohol-based formula. Specially formulated with moisturizers to give you soft hands. Hand Sanitizers Type: Gel; Color(s): Clear; Capacity (Volume): 2 Liter; Packing Type: Bottle."
+}]

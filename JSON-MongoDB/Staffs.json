@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "620253cad22ae0eb846826d2"
+  },
+  "FirstName": "Anmol",
+  "LastName": "Vishvas",
+  "username": "anmol_admin",
+  "email": "anmol@aven.com",
+  "PhoneNumber": " 23058967412",
+  "password": "Qwerty"
+},{
+  "_id": {
+    "$oid": "620e8c2d520b0000c0006219"
+  },
+  "FirstName": "Niven",
+  "LastName": "Poovanen",
+  "username": "niven04",
+  "email": "niven@aven.com",
+  "PhoneNumber": "54879632",
+  "password": "Qwerty"
+},{
+  "_id": {
+    "$oid": "620e8c53520b0000c000621a"
+  },
+  "FirstName": "admin",
+  "LastName": "Admin",
+  "username": "admin",
+  "email": "admin@anven.com",
+  "PhoneNumber": "54968712",
+  "password": "Qwerty"
+}]
